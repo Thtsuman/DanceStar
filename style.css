@@ -78,6 +78,7 @@ a:hover {
 
 /* header */
 #main-header h1 {
+    font-weight: 200;
     text-align: right;
     margin-right: 5rem;
 }
