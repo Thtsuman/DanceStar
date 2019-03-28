@@ -68,6 +68,10 @@ a:hover {
     font-family: 'montserrat', sans-serif;
 }
 
+#navbar .navbar-brand {
+    font-weight: 200;
+}
+
 #navbar a:hover {
     opacity: 0.6;
 }
