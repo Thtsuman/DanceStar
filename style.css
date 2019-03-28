@@ -1,0 +1,180 @@
+:root {
+    --primary-color: #ddf45b;
+    --secondary-color: #c6f91f;
+    --dark-color: #141115;
+    --dark-color-2: #8d6346;
+    --light-color: #f3f3f3;
+    --secondary-light-color: #7c7c7c;
+}   
+
+body {
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    color: var(--secondary-light-color);
+    font-size: 0.9rem;
+    line-height: 1.4;
+    letter-spacing: 0.05rem;
+}
+
+a {
+    color: var(--dark-color);
+}
+
+a:hover {
+    color: var(--dark-color);
+}
+
+
+/* utility classes */
+.heading {
+    font-family: 'montserrat', sans-serif;
+    color: var(--dark-color);
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.light-color {
+    color: var(--light-color);
+}
+
+.dark-color {
+    color: var(--dark-color);
+}
+
+.dark-color-2 {
+    color: var(--dark-color-2);
+}
+
+.right-align {
+    text-align: right;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.parallax-window {
+    min-height: 250px;
+    background: transparent;
+}
+
+/* navbar */ 
+.navbar-custom {
+    background-color: #fff;
+}
+
+#navbar a {
+    font-family: 'montserrat', sans-serif;
+}
+
+#navbar a:hover {
+    opacity: 0.6;
+}
+
+/* header */
+#main-header h1 {
+    text-align: right;
+    margin-right: 5rem;
+}
+
+#main-header .col-sm:first-child .row .col-sm:nth-child(2){
+    text-align: right;
+    margin-right: 5rem;
+}
+
+#main-header .col-sm:first-child .row .col-sm h6 {
+    font-size: 0.8rem;
+}
+
+
+
+/* About */
+#about {
+    background: var(--secondary-color);
+}
+
+#about h1,
+#about h5 {
+    color: #141115;
+}
+
+#about p {
+    color: #4c4c4c;
+}
+
+#about .row .white-box {
+    max-width: 100px;
+    max-height: 300px;
+    border-radius: 5px;
+    background: url("img/cover2.jpg") no-repeat center center/cover;
+    opacity: 0.8;
+}
+
+
+
+/* Why */
+#why {
+    background: var(--dark-color);
+}
+
+/* dancer  */
+#dancers {
+    background: var(--light-color);
+}
+
+
+
+/* footer */
+#main-footer {
+    background: var(--dark-color);
+}
+
+
+#main-footer a {
+    color: var(--light-color);
+}
+
+#main-footer a:hover {
+    opacity: 0.8;
+}
+
+@media(max-width: 420px) {
+    .container {
+        width: 90%;
+    }
+    #main-header h1 {
+        font-size: 3.5rem;
+        text-align: left;
+        margin-right: 1rem;
+    }
+
+    #main-header .col-sm:first-child .row .col-sm:nth-child(2){
+        text-align: left;
+        margin-right: 1rem;
+    }
+
+    #about .row .white-box {
+        display: none;
+    }
+
+    #about  .row .white-box {
+        display: none;
+    }
+
+    #gallery .heading {
+        font-size: 3.2rem;
+    }
+
+    #gallery .row .col-md-7 .row .col-sm {
+        padding-bottom: 1rem;
+    }
+
+    #dancer .mb-5 {
+        margin-bottom: 1rem;
+    }
+
+    #dancers .row .col-md {
+        padding-bottom: 1rem;
+    }
+}
